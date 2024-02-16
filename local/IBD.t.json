@@ -19,9 +19,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "0.9.0",
+      "sem_ver" : "0.10.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "659b36e243b1873ca0f66eb7f3b259aa",
+      "MD5-CAM-1.0.1" : "1a25f377097fa8f3a8725df8a448ad8a",
       "PARENT:MD5-CAM-1.0.1" : "A198E225F67F0E4A49653AC9C6EBCC0A"
     },
     "details" : {
@@ -747,6 +747,46 @@
         }, {
           "@type" : "C_COMPLEX_OBJECT",
           "rmTypeName" : "ELEMENT",
+          "nodeId" : "at0063.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "value",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "defaultValue" : {
+                "defining_code" : {
+                  "code_string" : "at0066",
+                  "@type" : "CODE_PHRASE"
+                },
+                "@type" : "DV_CODED_TEXT"
+              },
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "TERMINOLOGY_CODE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "local"
+                  },
+                  "constraint" : [ "ac0.12" ],
+                  "selectedTerminologies" : [ ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_TEXT",
+              "attributes" : [ ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
           "occurrences" : "0..0",
           "nodeId" : "at0073.1",
           "attributes" : [ {
@@ -868,6 +908,12 @@
             "text" : "(Synthesized)",
             "code" : "ac0.11",
             "description" : ""
+          },
+          "ac0.12" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "(Synthesized)",
+            "code" : "ac0.12",
+            "description" : ""
           }
         },
         "sl" : {
@@ -935,6 +981,12 @@
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.11",
+            "description" : ""
+          },
+          "ac0.12" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.12",
             "description" : ""
           }
         },
@@ -1004,6 +1056,12 @@
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.11",
             "description" : ""
+          },
+          "ac0.12" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.12",
+            "description" : ""
           }
         },
         "nb" : {
@@ -1071,6 +1129,12 @@
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.11",
+            "description" : ""
+          },
+          "ac0.12" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.12",
             "description" : ""
           }
         },
@@ -1140,6 +1204,12 @@
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.11",
             "description" : ""
+          },
+          "ac0.12" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.12",
+            "description" : ""
           }
         },
         "de" : {
@@ -1207,6 +1277,12 @@
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.11",
+            "description" : ""
+          },
+          "ac0.12" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.12",
             "description" : ""
           }
         },
@@ -1276,6 +1352,12 @@
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.11",
             "description" : ""
+          },
+          "ac0.12" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.12",
+            "description" : ""
           }
         },
         "sv" : {
@@ -1343,6 +1425,12 @@
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.11",
+            "description" : ""
+          },
+          "ac0.12" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.12",
             "description" : ""
           }
         },
@@ -1412,6 +1500,12 @@
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.11",
             "description" : ""
+          },
+          "ac0.12" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.12",
+            "description" : ""
           }
         }
       },
@@ -1479,6 +1573,11 @@
           "@type" : "VALUE_SET",
           "id" : "ac0.11",
           "members" : [ "at0108", "at0109" ]
+        },
+        "ac0.12" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.12",
+          "members" : [ "at0064", "at0066", "at0076" ]
         }
       }
     },
@@ -1847,6 +1946,108 @@
             "@type" : "C_ATTRIBUTE",
             "rmAttributeName" : "items",
             "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "ELEMENT",
+              "nodeId" : "at0002.1",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "value",
+                "children" : [ {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "DV_CODED_TEXT",
+                  "occurrences" : "1..1",
+                  "attributes" : [ {
+                    "@type" : "C_ATTRIBUTE",
+                    "rmAttributeName" : "defining_code",
+                    "children" : [ {
+                      "@type" : "C_TERMINOLOGY_CODE",
+                      "rmTypeName" : "TERMINOLOGY_CODE",
+                      "occurrences" : "0..1",
+                      "terminologyId" : {
+                        "value" : "ICD10"
+                      },
+                      "constraint" : [ ],
+                      "selectedTerminologies" : [ "ICD10" ],
+                      "includedExternalTerminologyCodes" : [ {
+                        "terminologyId" : "ICD10",
+                        "code" : "A00-B99",
+                        "value" : "Bepaalde infectieziekten en parasitaire aandoeningen"
+                      }, {
+                        "terminologyId" : "ICD10",
+                        "code" : "C00-D48",
+                        "value" : "Nieuwvormingen"
+                      }, {
+                        "terminologyId" : "ICD10",
+                        "code" : "D50-D89",
+                        "value" : "Ziekten van bloed en bloedvormende organen en bepaalde aandoeningen van immuunsysteem"
+                      }, {
+                        "terminologyId" : "ICD10",
+                        "code" : "E00-E90",
+                        "value" : "Endocriene ziekten en voedings- en stofwisselingsstoornissen"
+                      }, {
+                        "terminologyId" : "ICD10",
+                        "code" : "F00-F99",
+                        "value" : "Psychische stoornissen en gedragsstoornissen"
+                      }, {
+                        "terminologyId" : "ICD10",
+                        "code" : "G00-G99",
+                        "value" : "Ziekten van zenuwstelsel"
+                      }, {
+                        "terminologyId" : "ICD10",
+                        "code" : "H00-H59",
+                        "value" : "Ziekten van oog en adnexen"
+                      }, {
+                        "terminologyId" : "ICD10",
+                        "code" : "H60-H95",
+                        "value" : "Ziekten van oor en processus mastoideus"
+                      }, {
+                        "terminologyId" : "ICD10",
+                        "code" : "I00-I99",
+                        "value" : "Ziekten van hart en vaatstelsel"
+                      }, {
+                        "terminologyId" : "ICD10",
+                        "code" : "J00-J99",
+                        "value" : "Ziekten van ademhalingsstelsel"
+                      }, {
+                        "terminologyId" : "ICD10",
+                        "code" : "K00-K93",
+                        "value" : "Ziekten van spijsverteringsstelsel"
+                      }, {
+                        "terminologyId" : "ICD10",
+                        "code" : "L00-L99",
+                        "value" : "Ziekten van huid en subcutis"
+                      }, {
+                        "terminologyId" : "ICD10",
+                        "code" : "M00-M99",
+                        "value" : "Ziekten van botspierstelsel en bindweefsel"
+                      }, {
+                        "terminologyId" : "ICD10",
+                        "code" : "N00-N99",
+                        "value" : "Ziekten van urogenitaal stelsel"
+                      }, {
+                        "terminologyId" : "ICD10",
+                        "code" : "O00-O99",
+                        "value" : "Zwangerschap, bevalling en kraambed"
+                      }, {
+                        "terminologyId" : "ICD10",
+                        "code" : "P00-P96",
+                        "value" : "Bepaalde aandoeningen die hun oorsprong hebben in perinatale periode"
+                      }, {
+                        "terminologyId" : "ICD10",
+                        "code" : "Q00-Q99",
+                        "value" : "Congenitale afwijkingen, misvormingen en chromosoomafwijkingen"
+                      }, {
+                        "terminologyId" : "ICD10",
+                        "code" : "R00-R99",
+                        "value" : "Symptomen, afwijkende klinische bevindingen en laboratoriumuitslagen, niet elders geclassificeerd"
+                      } ]
+                    } ]
+                  } ],
+                  "attributeTuples" : [ ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            }, {
               "@type" : "C_COMPLEX_OBJECT",
               "rmTypeName" : "ELEMENT",
               "occurrences" : "0..0",
@@ -2994,6 +3195,46 @@
         }, {
           "@type" : "C_COMPLEX_OBJECT",
           "rmTypeName" : "ELEMENT",
+          "nodeId" : "at0063.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "value",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "defaultValue" : {
+                "defining_code" : {
+                  "code_string" : "at0064",
+                  "@type" : "CODE_PHRASE"
+                },
+                "@type" : "DV_CODED_TEXT"
+              },
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "TERMINOLOGY_CODE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "local"
+                  },
+                  "constraint" : [ "ac0.12" ],
+                  "selectedTerminologies" : [ ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_TEXT",
+              "attributes" : [ ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
           "occurrences" : "0..0",
           "nodeId" : "at0073.1",
           "attributes" : [ {
@@ -3115,6 +3356,12 @@
             "text" : "(Synthesized)",
             "code" : "ac0.11",
             "description" : ""
+          },
+          "ac0.12" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "(Synthesized)",
+            "code" : "ac0.12",
+            "description" : ""
           }
         },
         "sl" : {
@@ -3182,6 +3429,12 @@
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.11",
+            "description" : ""
+          },
+          "ac0.12" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.12",
             "description" : ""
           }
         },
@@ -3251,6 +3504,12 @@
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.11",
             "description" : ""
+          },
+          "ac0.12" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.12",
+            "description" : ""
           }
         },
         "nb" : {
@@ -3318,6 +3577,12 @@
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.11",
+            "description" : ""
+          },
+          "ac0.12" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.12",
             "description" : ""
           }
         },
@@ -3387,6 +3652,12 @@
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.11",
             "description" : ""
+          },
+          "ac0.12" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.12",
+            "description" : ""
           }
         },
         "de" : {
@@ -3454,6 +3725,12 @@
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.11",
+            "description" : ""
+          },
+          "ac0.12" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.12",
             "description" : ""
           }
         },
@@ -3523,6 +3800,12 @@
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.11",
             "description" : ""
+          },
+          "ac0.12" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.12",
+            "description" : ""
           }
         },
         "sv" : {
@@ -3590,6 +3873,12 @@
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.11",
+            "description" : ""
+          },
+          "ac0.12" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.12",
             "description" : ""
           }
         },
@@ -3659,6 +3948,12 @@
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.11",
             "description" : ""
+          },
+          "ac0.12" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.12",
+            "description" : ""
           }
         }
       },
@@ -3726,6 +4021,11 @@
           "@type" : "VALUE_SET",
           "id" : "ac0.11",
           "members" : [ "at0108", "at0109" ]
+        },
+        "ac0.12" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.12",
+          "members" : [ "at0064", "at0066", "at0076" ]
         }
       }
     },
@@ -4094,6 +4394,68 @@
             "@type" : "C_ATTRIBUTE",
             "rmAttributeName" : "items",
             "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "ELEMENT",
+              "nodeId" : "at0002.1",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "value",
+                "children" : [ {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "DV_CODED_TEXT",
+                  "occurrences" : "1..1",
+                  "attributes" : [ {
+                    "@type" : "C_ATTRIBUTE",
+                    "rmAttributeName" : "defining_code",
+                    "children" : [ {
+                      "@type" : "C_TERMINOLOGY_CODE",
+                      "rmTypeName" : "TERMINOLOGY_CODE",
+                      "occurrences" : "0..1",
+                      "terminologyId" : {
+                        "value" : "ICD10"
+                      },
+                      "constraint" : [ ],
+                      "selectedTerminologies" : [ "ICD10" ],
+                      "includedExternalTerminologyCodes" : [ {
+                        "terminologyId" : "ICD10",
+                        "code" : "B16.9",
+                        "value" : "hepatitis B"
+                      }, {
+                        "terminologyId" : "ICD10",
+                        "code" : "B16.9",
+                        "value" : "acute hepatitis B"
+                      }, {
+                        "terminologyId" : "ICD10",
+                        "code" : "B16.1",
+                        "value" : "acute hepatitis B met hepatitis D"
+                      }, {
+                        "terminologyId" : "ICD10",
+                        "code" : "Z21",
+                        "value" : "HIV seropositief"
+                      }, {
+                        "terminologyId" : "ICD10",
+                        "code" : "B20.9",
+                        "value" : "HIV-infectie"
+                      }, {
+                        "terminologyId" : "ICD10",
+                        "code" : "A16.9",
+                        "value" : "tuberculose"
+                      }, {
+                        "terminologyId" : "ICD10",
+                        "code" : "A18.4",
+                        "value" : "tuberculose van huid"
+                      }, {
+                        "terminologyId" : "ICD10",
+                        "code" : "B01.9",
+                        "value" : "varicella"
+                      } ]
+                    } ]
+                  } ],
+                  "attributeTuples" : [ ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            }, {
               "@type" : "C_COMPLEX_OBJECT",
               "rmTypeName" : "ELEMENT",
               "occurrences" : "0..0",
@@ -5241,6 +5603,46 @@
         }, {
           "@type" : "C_COMPLEX_OBJECT",
           "rmTypeName" : "ELEMENT",
+          "nodeId" : "at0063.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "value",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "defaultValue" : {
+                "defining_code" : {
+                  "code_string" : "at0076",
+                  "@type" : "CODE_PHRASE"
+                },
+                "@type" : "DV_CODED_TEXT"
+              },
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "TERMINOLOGY_CODE",
+                  "occurrences" : "1..1",
+                  "terminologyId" : {
+                    "value" : "local"
+                  },
+                  "constraint" : [ "ac0.12" ],
+                  "selectedTerminologies" : [ ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_TEXT",
+              "attributes" : [ ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        }, {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
           "occurrences" : "0..0",
           "nodeId" : "at0073.1",
           "attributes" : [ {
@@ -5362,6 +5764,12 @@
             "text" : "(Synthesized)",
             "code" : "ac0.11",
             "description" : ""
+          },
+          "ac0.12" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "(Synthesized)",
+            "code" : "ac0.12",
+            "description" : ""
           }
         },
         "sl" : {
@@ -5429,6 +5837,12 @@
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.11",
+            "description" : ""
+          },
+          "ac0.12" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.12",
             "description" : ""
           }
         },
@@ -5498,6 +5912,12 @@
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.11",
             "description" : ""
+          },
+          "ac0.12" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.12",
+            "description" : ""
           }
         },
         "nb" : {
@@ -5565,6 +5985,12 @@
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.11",
+            "description" : ""
+          },
+          "ac0.12" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.12",
             "description" : ""
           }
         },
@@ -5634,6 +6060,12 @@
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.11",
             "description" : ""
+          },
+          "ac0.12" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.12",
+            "description" : ""
           }
         },
         "de" : {
@@ -5701,6 +6133,12 @@
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.11",
+            "description" : ""
+          },
+          "ac0.12" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.12",
             "description" : ""
           }
         },
@@ -5770,6 +6208,12 @@
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.11",
             "description" : ""
+          },
+          "ac0.12" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.12",
+            "description" : ""
           }
         },
         "sv" : {
@@ -5837,6 +6281,12 @@
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.11",
+            "description" : ""
+          },
+          "ac0.12" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.12",
             "description" : ""
           }
         },
@@ -5906,6 +6356,12 @@
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.11",
             "description" : ""
+          },
+          "ac0.12" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.12",
+            "description" : ""
           }
         }
       },
@@ -5973,6 +6429,11 @@
           "@type" : "VALUE_SET",
           "id" : "ac0.11",
           "members" : [ "at0108", "at0109" ]
+        },
+        "ac0.12" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.12",
+          "members" : [ "at0064", "at0066", "at0076" ]
         }
       }
     },
@@ -6341,6 +6802,68 @@
             "@type" : "C_ATTRIBUTE",
             "rmAttributeName" : "items",
             "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "ELEMENT",
+              "nodeId" : "at0002.1",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "value",
+                "children" : [ {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "DV_CODED_TEXT",
+                  "occurrences" : "1..1",
+                  "attributes" : [ {
+                    "@type" : "C_ATTRIBUTE",
+                    "rmAttributeName" : "defining_code",
+                    "children" : [ {
+                      "@type" : "C_TERMINOLOGY_CODE",
+                      "rmTypeName" : "TERMINOLOGY_CODE",
+                      "occurrences" : "0..1",
+                      "terminologyId" : {
+                        "value" : "ICD10"
+                      },
+                      "constraint" : [ ],
+                      "selectedTerminologies" : [ "ICD10" ],
+                      "includedExternalTerminologyCodes" : [ {
+                        "terminologyId" : "ICD10",
+                        "code" : "H20.9",
+                        "value" : "Iridocyclitis, niet gespecificeerd"
+                      }, {
+                        "terminologyId" : "ICD10",
+                        "code" : "L88",
+                        "value" : "Pyoderma gangraenosum"
+                      }, {
+                        "terminologyId" : "ICD10",
+                        "code" : "L52",
+                        "value" : "Erythema nodosum"
+                      }, {
+                        "terminologyId" : "ICD10",
+                        "code" : "D23.9",
+                        "value" : "Benigne neoplasma van huid, niet gespecificeerd"
+                      }, {
+                        "terminologyId" : "ICD10",
+                        "code" : "H20.9",
+                        "value" : "Iridocyclitis, niet gespecificeerd"
+                      }, {
+                        "terminologyId" : "ICD10",
+                        "code" : "M13.99",
+                        "value" : "Artritis, niet gespecificeerd van lokalisatie niet gespecificeerd"
+                      }, {
+                        "terminologyId" : "ICD10",
+                        "code" : "L88",
+                        "value" : "Pyoderma gangraenosum"
+                      }, {
+                        "terminologyId" : "ICD10",
+                        "code" : "L52",
+                        "value" : "Erythema nodosum"
+                      } ]
+                    } ]
+                  } ],
+                  "attributeTuples" : [ ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            }, {
               "@type" : "C_COMPLEX_OBJECT",
               "rmTypeName" : "ELEMENT",
               "occurrences" : "0..0",
@@ -8038,7 +8561,79 @@
           "@type" : "C_COMPLEX_OBJECT",
           "rmTypeName" : "ELEMENT",
           "nodeId" : "at0001.1",
-          "attributes" : [ ],
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "value",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "occurrences" : "1..1",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "TERMINOLOGY_CODE",
+                  "occurrences" : "0..1",
+                  "terminologyId" : {
+                    "value" : "SNOMED"
+                  },
+                  "constraint" : [ ],
+                  "selectedTerminologies" : [ "SNOMED" ],
+                  "includedExternalTerminologyCodes" : [ {
+                    "terminologyId" : "SNOMED",
+                    "code" : "34516001",
+                    "value" : "Ileum"
+                  }, {
+                    "terminologyId" : "SNOMED",
+                    "code" : "71854001",
+                    "value" : "Colon"
+                  }, {
+                    "terminologyId" : "SNOMED",
+                    "code" : "397158004",
+                    "value" : "regio perianalis"
+                  }, {
+                    "terminologyId" : "SNOMED",
+                    "code" : "40664009",
+                    "value" : "Localisaties proximaal van het ileum"
+                  }, {
+                    "terminologyId" : "SNOMED",
+                    "code" : "312533001",
+                    "value" : "mond/keelholte"
+                  }, {
+                    "terminologyId" : "SNOMED",
+                    "code" : "32849002",
+                    "value" : "slokdarm"
+                  }, {
+                    "terminologyId" : "SNOMED",
+                    "code" : "69695003",
+                    "value" : "maag"
+                  }, {
+                    "terminologyId" : "SNOMED",
+                    "code" : "38848004",
+                    "value" : "duodenum"
+                  }, {
+                    "terminologyId" : "SNOMED",
+                    "code" : "21306003",
+                    "value" : "jejunum"
+                  }, {
+                    "terminologyId" : "SNOMED",
+                    "code" : "34402009",
+                    "value" : "rectum (distaal)"
+                  }, {
+                    "terminologyId" : "SNOMED",
+                    "code" : "55572008",
+                    "value" : "linker hemicolon (linkszijdig)"
+                  }, {
+                    "terminologyId" : "SNOMED",
+                    "code" : "71854001",
+                    "value" : "hele colon"
+                  } ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
           "attributeTuples" : [ ]
         }, {
           "@type" : "C_COMPLEX_OBJECT",
@@ -8964,17 +9559,25 @@
             "children" : [ {
               "@type" : "C_COMPLEX_OBJECT",
               "rmTypeName" : "DV_CODED_TEXT",
+              "defaultValue" : {
+                "defining_code" : {
+                  "code_string" : "at0064",
+                  "@type" : "CODE_PHRASE"
+                },
+                "@type" : "DV_CODED_TEXT"
+              },
               "attributes" : [ {
                 "@type" : "C_ATTRIBUTE",
                 "rmAttributeName" : "defining_code",
                 "children" : [ {
                   "@type" : "C_TERMINOLOGY_CODE",
-                  "rmTypeName" : "CODE_PHRASE",
+                  "rmTypeName" : "TERMINOLOGY_CODE",
                   "occurrences" : "1..1",
                   "terminologyId" : {
                     "value" : "local"
                   },
-                  "constraint" : [ "at0064", "at0066", "at0076" ]
+                  "constraint" : [ "ac0.12" ],
+                  "selectedTerminologies" : [ ]
                 } ]
               } ],
               "attributeTuples" : [ ]
@@ -9110,6 +9713,12 @@
             "text" : "(Synthesized)",
             "code" : "ac0.11",
             "description" : ""
+          },
+          "ac0.12" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "(Synthesized)",
+            "code" : "ac0.12",
+            "description" : ""
           }
         },
         "sl" : {
@@ -9177,6 +9786,12 @@
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.11",
+            "description" : ""
+          },
+          "ac0.12" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.12",
             "description" : ""
           }
         },
@@ -9246,6 +9861,12 @@
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.11",
             "description" : ""
+          },
+          "ac0.12" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.12",
+            "description" : ""
           }
         },
         "nb" : {
@@ -9313,6 +9934,12 @@
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.11",
+            "description" : ""
+          },
+          "ac0.12" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.12",
             "description" : ""
           }
         },
@@ -9382,6 +10009,12 @@
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.11",
             "description" : ""
+          },
+          "ac0.12" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.12",
+            "description" : ""
           }
         },
         "de" : {
@@ -9449,6 +10082,12 @@
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.11",
+            "description" : ""
+          },
+          "ac0.12" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.12",
             "description" : ""
           }
         },
@@ -9518,6 +10157,12 @@
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.11",
             "description" : ""
+          },
+          "ac0.12" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.12",
+            "description" : ""
           }
         },
         "sv" : {
@@ -9585,6 +10230,12 @@
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.11",
+            "description" : ""
+          },
+          "ac0.12" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.12",
             "description" : ""
           }
         },
@@ -9654,6 +10305,12 @@
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.11",
             "description" : ""
+          },
+          "ac0.12" : {
+            "@type" : "ARCHETYPE_TERM",
+            "text" : "*(Synthesized) (en)",
+            "code" : "ac0.12",
+            "description" : ""
           }
         }
       },
@@ -9721,6 +10378,11 @@
           "@type" : "VALUE_SET",
           "id" : "ac0.11",
           "members" : [ "at0108", "at0109" ]
+        },
+        "ac0.12" : {
+          "@type" : "VALUE_SET",
+          "id" : "ac0.12",
+          "members" : [ "at0064", "at0066", "at0076" ]
         }
       }
     },
@@ -10065,7 +10727,76 @@
                   "@type" : "C_COMPLEX_OBJECT",
                   "rmTypeName" : "DV_CODED_TEXT",
                   "occurrences" : "1..1",
-                  "attributes" : [ ],
+                  "attributes" : [ {
+                    "@type" : "C_ATTRIBUTE",
+                    "rmAttributeName" : "defining_code",
+                    "children" : [ {
+                      "@type" : "C_TERMINOLOGY_CODE",
+                      "rmTypeName" : "TERMINOLOGY_CODE",
+                      "terminologyId" : {
+                        "value" : "ICD10"
+                      },
+                      "constraint" : [ ],
+                      "selectedTerminologies" : [ "ICD10" ],
+                      "includedExternalTerminologyCodes" : [ {
+                        "terminologyId" : "ICD10",
+                        "code" : "Z03.8",
+                        "value" : "Observatie in verband met verdenking op andere gespecificeerde ziekten en aandoeningen"
+                      }, {
+                        "terminologyId" : "ICD10",
+                        "code" : "K50.9",
+                        "value" : "Ziekte van Crohn, niet gespecificeerd"
+                      }, {
+                        "terminologyId" : "ICD10",
+                        "code" : "K50.0",
+                        "value" : "Ziekte van Crohn van dunne darm"
+                      }, {
+                        "terminologyId" : "ICD10",
+                        "code" : "K50.1",
+                        "value" : "Ziekte van Crohn van dikke darm"
+                      }, {
+                        "terminologyId" : "ICD10",
+                        "code" : "K50.0",
+                        "value" : "Ziekte van Crohn van dunne darm"
+                      }, {
+                        "terminologyId" : "ICD10",
+                        "code" : "K50.1",
+                        "value" : "Ziekte van Crohn van dikke darm"
+                      }, {
+                        "terminologyId" : "ICD10",
+                        "code" : "K50.9",
+                        "value" : "Ziekte van Crohn, niet gespecificeerd"
+                      }, {
+                        "terminologyId" : "ICD10",
+                        "code" : "K50.8",
+                        "value" : "Overige gespecificeerde ziekte van Crohn"
+                      }, {
+                        "terminologyId" : "ICD10",
+                        "code" : "K51.2",
+                        "value" : "Ulceratieve (chronische) proctitis"
+                      }, {
+                        "terminologyId" : "ICD10",
+                        "code" : "K51.3",
+                        "value" : "Ulceratieve (chronische) rectosigmoïditis"
+                      }, {
+                        "terminologyId" : "ICD10",
+                        "code" : "K51.4",
+                        "value" : "Inflammatoire poliep"
+                      }, {
+                        "terminologyId" : "ICD10",
+                        "code" : "K51.5",
+                        "value" : "Linkszijdige colitis"
+                      }, {
+                        "terminologyId" : "ICD10",
+                        "code" : "K51.8",
+                        "value" : "Overige gespecificeerde colitis ulcerosa"
+                      }, {
+                        "terminologyId" : "ICD10",
+                        "code" : "K51.9",
+                        "value" : "Colitis ulcerosa, niet gespecificeerd"
+                      } ]
+                    } ]
+                  } ],
                   "attributeTuples" : [ ]
                 } ]
               } ],
@@ -10076,6 +10807,52 @@
               "occurrences" : "0..0",
               "nodeId" : "at0079.1",
               "attributes" : [ ],
+              "attributeTuples" : [ ]
+            }, {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "ELEMENT",
+              "nodeId" : "at0009.1",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "value",
+                "children" : [ {
+                  "@type" : "C_COMPLEX_OBJECT",
+                  "rmTypeName" : "DV_CODED_TEXT",
+                  "occurrences" : "1..1",
+                  "attributes" : [ {
+                    "@type" : "C_ATTRIBUTE",
+                    "rmAttributeName" : "defining_code",
+                    "children" : [ {
+                      "@type" : "C_TERMINOLOGY_CODE",
+                      "rmTypeName" : "TERMINOLOGY_CODE",
+                      "occurrences" : "0..1",
+                      "terminologyId" : {
+                        "value" : "local_terms"
+                      },
+                      "constraint" : [ ],
+                      "selectedTerminologies" : [ "local_terms" ],
+                      "includedExternalTerminologyCodes" : [ {
+                        "terminologyId" : "local_terms",
+                        "code" : "B1",
+                        "value" : "Niet stenoserend en niet penetrerend"
+                      }, {
+                        "terminologyId" : "local_terms",
+                        "code" : "B2",
+                        "value" : "Stenoserend"
+                      }, {
+                        "terminologyId" : "local_terms",
+                        "code" : "B3",
+                        "value" : "Penetrerend"
+                      }, {
+                        "terminologyId" : "local_terms",
+                        "code" : "B4",
+                        "value" : "Inflammatie"
+                      } ]
+                    } ]
+                  } ],
+                  "attributeTuples" : [ ]
+                } ]
+              } ],
               "attributeTuples" : [ ]
             }, {
               "@type" : "C_COMPLEX_OBJECT",
