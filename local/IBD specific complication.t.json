@@ -19,9 +19,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "0.1.0",
+      "sem_ver" : "0.2.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "a60c04787f3b847066b756cd756532b3",
+      "MD5-CAM-1.0.1" : "576ac70cb4cfdb312da6a645633d3989",
       "PARENT:MD5-CAM-1.0.1" : "70083C267A35C88E111E5BA35120DE86"
     },
     "details" : {
@@ -228,36 +228,24 @@
                     "selectedTerminologies" : [ "ICD10" ],
                     "includedExternalTerminologyCodes" : [ {
                       "terminologyId" : "ICD10",
-                      "code" : "K65.0",
-                      "value" : "Acute peritonitis"
+                      "code" : "K12.0",
+                      "value" : "Recidiverende mondaften"
                     }, {
                       "terminologyId" : "ICD10",
-                      "code" : "T81.4",
-                      "value" : "Infectie na medische verrichting, niet elders geclassificeerd"
+                      "code" : "K60.2",
+                      "value" : "Fissura ani, niet gespecificeerd"
                     }, {
                       "terminologyId" : "ICD10",
-                      "code" : "K65.0",
-                      "value" : "Acute peritonitis"
+                      "code" : "K60.3",
+                      "value" : "Perianale fistel"
                     }, {
                       "terminologyId" : "ICD10",
-                      "code" : "K91.8",
-                      "value" : "Overige gespecificeerde aandoeningen van spijsverteringsstelsel na medische verrichting, niet elders geclassificeerd"
+                      "code" : "K31.6",
+                      "value" : "Fistel van maag en duodenum"
                     }, {
                       "terminologyId" : "ICD10",
-                      "code" : "T79.3",
-                      "value" : "Posttraumatische wondinfectie, niet elders geclassificeerd"
-                    }, {
-                      "terminologyId" : "ICD10",
-                      "code" : "T81.4",
-                      "value" : "Infectie na medische verrichting, niet elders geclassificeerd"
-                    }, {
-                      "terminologyId" : "ICD10",
-                      "code" : "I82.9",
-                      "value" : "Embolie en trombose van niet gespecificeerde vene"
-                    }, {
-                      "terminologyId" : "ICD10",
-                      "code" : "T81.0",
-                      "value" : "Bloeding en hematoom als complicatie van medische verrichting, niet elders geclassificeerd"
+                      "code" : "L02.9",
+                      "value" : "Huidabces, furunkel en karbunkel, niet gespecificeerd"
                     } ]
                   } ]
                 } ],
